@@ -7,13 +7,13 @@ This is an ipsum generator, it generates all kinds of ipsums you could imagine.
 n = number of paragraphs, letters or words.
 
 **By paragraphs**
-https://ipsum-generator.appspot.com/n/0/0
+https://localhost:8080/n/0/0
 
 **By letters**
-https://ipsum-generator.appspot.com/0/n/0
+https://localhost:8080/0/n/0
 
 **By words**
-https://ipsum-generator.appspot.com/0/0/n
+https://localhost:8080/0/0/n
 
 ## Installing
 
