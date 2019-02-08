@@ -1,5 +1,6 @@
 const generator = require("./generator");
 const utils = require("./helpers/utils");
+const path = require('path');
 module.exports = (app) =>{
     app.get("/generate/:paragraphs/:letters/:words", (req, res)=>{
         const params = req.params;
@@ -28,6 +29,6 @@ module.exports = (app) =>{
         });
     })
     app.get("/", (req, res)=>{
-        res.send("Welcome");
+        res.sendFile(path.join(__dirname, "/index.html"));
     })
 }
